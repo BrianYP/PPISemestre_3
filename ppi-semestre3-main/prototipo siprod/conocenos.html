@@ -1,0 +1,344 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Conocenos</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" type="text/css" href="style.css" />
+  </head>
+
+  <body>
+    <header>
+      <!--header-->
+      <nav
+        class="navbar navbar-expand-md bg-dark fixed-top"
+        data-bs-theme="dark"
+      >
+        <div class="container px-5">
+          <a class="navbar-brand"
+            ><img src="imagenes/logoInverso.png" alt="logo" width="70px"
+          /></a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNav"
+            aria-controls="navbarNav"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ms-auto">
+              <li class="nav-item">
+                <a class="nav-link px-3" aria-current="page" href="#">Inicio</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link px-3" href="#miFooter">Contacto</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active px-3" href="/prototipo siprod/conocenos.html">Conocenos</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link px-3" href="/prototipo siprod/noticias.html">Noticias</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-link dropdown-toggle"
+                  href="#"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="16"
+                    height="16"
+                    fill="currentColor"
+                    class="bi bi-person-circle"
+                    viewBox="0 0 16 16"
+                  >
+                    <path d="M11 6a3 3 0 1 1-6 0 3 3 0 0 1 6 0z" />
+                    <path
+                      fill-rule="evenodd"
+                      d="M0 8a8 8 0 1 1 16 0A8 8 0 0 1 0 8zm8-7a7 7 0 0 0-5.468 11.37C3.242 11.226 4.805 10 8 10s4.757 1.225 5.468 2.37A7 7 0 0 0 8 1z"
+                    />
+                  </svg>
+                </a>
+                <ul class="dropdown-menu">
+                  <li>
+                    <a
+                      class="dropdown-item"
+                      data-bs-toggle="modal"
+                      data-bs-target="#inicioSesion"
+                      >Iniciar sesión</a
+                    >
+                  </li>
+                  <li><hr class="dropdown-divider" /></li>
+                  <li>
+                    <a
+                      class="dropdown-item"
+                      data-bs-toggle="modal"
+                      data-bs-target="#registro"
+                      >Registrarse</a
+                    >
+                  </li>
+                </ul>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <!--seccion de conocenos-->
+    <!--tarjeta 1-->
+    <section class="container-sm tarjetas">
+      <div class="card mb-3">
+        <div class="row g-0">
+          <div class="col-md-4">
+            <img
+              src="imagenes/tarjeta1.jpg"
+              class="img-fluid rounded-start"
+              alt="tarjetaOficina"
+            />
+          </div>
+          <div class="col-md-8">
+            <div class="card-body">
+              <h5 class="card-title">¿Quiénes somos?</h5>
+              <p class="card-text">
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                Nostrum consequuntur exercitationem cum, dolorum amet suscipit
+                laboriosam sunt error, reprehenderit iste explicabo facilis ea,
+                sed animi ad nulla! Nostrum, nesciunt animi Lorem ipsum dolor,
+                sit amet consectetur adipisicing elit. Nostrum consequuntur
+                exercitationem cum, dolorum amet suscipit laboriosam sunt error,
+                reprehenderit iste explicabo facilis ea, sed animi ad nulla!
+                Nostrum, nesciunt animi
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!--tarjeta2-->
+    <section class="container-sm tarjetas">
+      <div class="card mb-3">
+        <div class="row g-0">
+          <div class="col-md-8">
+            <div class="card-body">
+              <h5 class="card-title">¿Qué hacemos?</h5>
+              <p class="card-text">
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                Nostrum consequuntur exercitationem cum, dolorum amet suscipit
+                laboriosam sunt error, reprehenderit iste explicabo facilis ea,
+                sed animi ad nulla! Nostrum, nesciunt animi Lorem ipsum dolor,
+                sit amet consectetur adipisicing elit. Nostrum consequuntur
+                exercitationem cum, dolorum amet suscipit laboriosam sunt error,
+                reprehenderit iste explicabo facilis ea, sed animi ad nulla!
+                Nostrum, nesciunt animi
+              </p>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <img
+              src="imagenes/asesoria.jpg"
+              class="img-fluid rounded-start"
+              alt="tarjetaAsesoria"
+            />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!--tarjeta 3 (MAPA)-->
+    <section class="container tarjetaMapa">
+      <div class="card">
+        <div class="card-body">
+          <h5 class="card-title text-center">¿Dónde nos ubicamos?</h5>
+          <p class="card-text text-center">
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                Nostrum consequuntur exercitationem cum, dolorum amet suscipit
+                laboriosam sunt error, reprehenderit iste explicabo facilis ea,
+                sed animi ad nulla! Nostrum, nesciunt animi Lorem ipsum dolor,
+                sit amet consectetur adipisicing elit. Nostrum consequuntur
+                exercitationem cum, dolorum amet suscipit laboriosam sunt error,
+                reprehenderit iste explicabo facilis ea, sed animi ad nulla!
+                Nostrum, nesciunt animi
+          </p>
+        </div>
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4750.076929575182!2d-75.56767491006084!3d6.317931228767453!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e442f1a5e949db1%3A0xe727bc19623c7c1f!2sPolit%C3%A9cnico%20Colombiano%20Jaime%20Isaza%20Cadavid!5e0!3m2!1ses!2sco!4v1695595743750!5m2!1ses!2sco"
+          width="400"
+          height="300"
+          style="border: 0"
+          allowfullscreen=""
+          loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade"
+          class="card-img-bottom"
+        ></iframe>
+      </div>
+    </section>
+
+    <!-- Modal inicio sesion -->
+    <div
+      class="modal fade"
+      id="inicioSesion"
+      tabindex="-1"
+      aria-labelledby="inicioSesionLabel"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h1 class="modal-title fs-5" id="inicioSesion">Inicio sesión</h1>
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="modal"
+              aria-label="Close"
+            ></button>
+          </div>
+          <div class="modal-body">
+            <div class="mb-3">
+              <label for="inputUser" class="form-label"
+                >Usuario</label
+              >
+              <input
+                type="text"
+                class="form-control"
+                id="inputUser"
+                placeholder="Usuario1234"
+              />
+            </div>
+            <div class="mb-3">
+              <label for="inputPass" class="form-label"
+                >Contraseña</label
+              >
+              <input
+                type="password"
+                class="form-control"
+                id="inputPass"
+                placeholder="Contraseña1234"
+              />
+            </div>
+          </div>
+          <div class="modal-footer">
+            <button
+              type="button"
+              class="btn btn-danger"
+              data-bs-dismiss="modal"
+            >
+              Cerrar
+            </button>
+            <button type="button" class="btn btn-dark">Iniciar</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Modal Registro -->
+    <div
+      class="modal fade"
+      id="registro"
+      tabindex="-1"
+      aria-labelledby="registroLabel"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h1 class="modal-title fs-5" id="registro">Registro</h1>
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="modal"
+              aria-label="Close"
+            ></button>
+          </div>
+          <div class="modal-body">
+            <form class="row g-3">
+              <div class="col-md-6">
+                <label for="inputUsuario" class="form-label">Usuario</label>
+                <input type="email" class="form-control" id="inputUsuario" placeholder="Elpepe123" />
+              </div>
+              <div class="col-md-6">
+                <label for="inputCorreo" class="form-label">Correo</label>
+                <input
+                  type="email"
+                  class="form-control"
+                  id="inputCorreo"
+                  placeholder="usuario234@gmail.com"
+                />
+              </div>
+              <div class="col-12">
+                <label for="inputContraseña" class="form-label">Contraseña</label>
+                <input
+                  type="password"
+                  class="form-control"
+                  id="inputContraseña"
+                  placeholder="Pepe1234"
+                />
+              </div>
+              <div class="col-12">
+                <label for="inputContraseña2" class="form-label">Confirmar contraseña</label>
+                <input
+                  type="password"
+                  class="form-control"
+                  id="inputContraseña2"
+                  placeholder="Pepe1234"
+                />
+              </div>
+              <div class="col-md-6">
+                <label for="inputCiudad" class="form-label">Ciudad</label>
+                <input type="text" class="form-control" id="inputCiudad" placeholder="Barbosa" />
+              </div>
+              <div class="col-md-6">
+                <label for="inputSexo" class="form-label">Sexo</label>
+                <select id="inputSexo" class="form-select">
+                  <option selected>Seleccionar</option>
+                  <option value="Masculino">Masculino</option>
+                  <option value="Femenino">Femenino</option>
+                </select>
+              </div>
+            </form>
+          </div>
+          <div class="modal-footer">
+            <button
+              type="button"
+              class="btn btn-danger"
+              data-bs-dismiss="modal"
+            >
+              Cerrar
+            </button>
+            <button type="button" class="btn btn-dark">Registrar</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <footer id="miFooter">
+      <div class="container-fluid dark text-center">
+        <div class="container"><a href=""><img src="imagenes/logoInverso.png" alt="" width="170px"></a></div>
+        <a href="#" class="text-decoration-none text-light"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-c-circle m-1" viewBox="0 0 16 16">
+          <path d="M1 8a7 7 0 1 0 14 0A7 7 0 0 0 1 8Zm15 0A8 8 0 1 1 0 8a8 8 0 0 1 16 0ZM8.146 4.992c-1.212 0-1.927.92-1.927 2.502v1.06c0 1.571.703 2.462 1.927 2.462.979 0 1.641-.586 1.729-1.418h1.295v.093c-.1 1.448-1.354 2.467-3.03 2.467-2.091 0-3.269-1.336-3.269-3.603V7.482c0-2.261 1.201-3.638 3.27-3.638 1.681 0 2.935 1.054 3.029 2.572v.088H9.875c-.088-.879-.768-1.512-1.729-1.512Z"/>
+        </svg>Politécnico Colombiano Jaime Isaza Cadavid</a>
+      </div>
+    </footer>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
